@@ -35,9 +35,8 @@ const Button = styled.button`
   align-items: center;
   left: 20px;
   bottom: 20px;
-  background-color: var(--blue1);
   background-color: ${({ sidebarOpen }) =>
-    sidebarOpen ? "var(--white)" : "var(--blue1)"};
+    sidebarOpen ? "var(--white)" : "var(--dkBackground)"};
 
   box-shadow: -2px 2px 10px 2px rgba(0, 0, 0, 0.3);
   color: white;

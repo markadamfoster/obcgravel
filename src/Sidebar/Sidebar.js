@@ -48,13 +48,12 @@ export default function Sidebar({ selectedRide, setSelectedRide }) {
 }
 
 const SidebarWrapper = styled(motion.div)`
-  /* position: absolute; */
   left: 0;
   top: 0;
   bottom: 0;
   width: 300px;
   flex-shrink: 0;
-  background: var(--blue1);
+  background: var(--dkBackground);
   display: flex;
   flex-direction: column;
 `;
@@ -63,4 +62,7 @@ const CloseButton = styled.div``;
 
 const RideList = styled.ul`
   flex: 1;
+  list-style: none;
+  margin: 0;
+  padding: 20px;
 `;
